@@ -2,8 +2,8 @@
   "type": "micro",
   "wake_word": "Hey_Morpheus",
   "author": "Jurgen Delmans",
-  "model": "./Hey_Morpheus.tflite",
-  "version": 2,
+  "model": "Hey_Morpheus.tflite",
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.97,
     "sliding_window_size": 5,
