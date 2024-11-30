@@ -2,9 +2,14 @@
 micro_wake_word:
   models:
     - model: okay_nabu
+    - model: Hey_Morpheus
 
 # Custom trained TFLITE Hey_Morpheus
 micro_wake_word:
   models:
     - model: github://jurgendelmans/ESP32_tflite_hey_morpheus/hey_morpheus.json
     
+on_wake_word_detected:
+    then:
+      - voice_assistant.start:
+          wake_word: !lambda return wake_word;
