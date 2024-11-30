@@ -1,0 +1,10 @@
+# Default OK Nabu
+micro_wake_word:
+  models:
+    - model: okay_nabu
+
+# Custom trained TFLITE Hey_Morpheus
+micro_wake_word:
+  models:
+    - model: github://jurgendelmans/ESP32_tflite_hey_morpheus/hey_morpheus.json
+    
